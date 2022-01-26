@@ -1,4 +1,4 @@
-So this is my project that generates the maze using recursive backtracker of my own creation. I'm also working on the algorithm which aim is to find the shortest way but it's not finished yet so please comment out the 'solve_maze' function if you want to test the generation algorithm.
+This is my project that generates the maze using recursive backtracker of my own creation. I'm also working on the algorithm which aim is to find the shortest way but it's not finished yet so please comment out the 'solve_maze' function if you want to test the generation algorithm.
 
 Even though the solving algorithm is not finished yet I've develepoed it's theory using pseudo code, but in order to understanding it you have to know how the maze creation algorithm works, so please test the code and then you can read about the solving algorithm's instructions and it's pseudo code.
 
