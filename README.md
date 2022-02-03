@@ -59,7 +59,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a recursive backtracker maze generator with solving algorithm which is under development.
+This is a recursive backtracker maze generator with solving algorithm based on my own theory which is under development. Read through the theory to find out more about the algorithm:
+1. While we create the maze we want to get hold of the information about how the algorithm reached every cell, f.e. it reached the cell on coordinates (x, y) by going left.
+
+2. Using this information we want the algorithm to analyze every cell in the maze and figure out the available ways of getting out of every cell so that the algorithm knows whether there's a 'wall' in front of him or not.
+
+3. We already have an information about how we can get out of every cell, the algorithm acquired it in step one, so f.e. for a given cell if we got to it by going left, naturally we can get out of it by going right, right? :)
+
+4. But what about any other possible ways of getting out? Well for the algorithm to figure them out we have to know how it reached the cell above, on right, below and on left. Now if the cell above was reached by going up then the algorith knows that there is no wall, same for the cell on right which if reached by going right can be accessed by going right and so on for the other cells.
+
+5. Now when we know every cell's ways out, we must eliminate dead ends which are cells that only have a one way of getting out.
+
+6. Then we have to know the location of every cell which has 3 or more ways out of it, these are some sort of crossroads and every road has to be visited by the algorithm.
+
+7. The goal for the algorithm is to move from one crossroad to another and eventually eliminate all of the roads that lead the algorithm to the dead ends resulting in finding a shortest way to solve the maze.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -112,7 +125,7 @@ Try with manipulating values of a maze's cell in order to change the maze's size
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [LinkedInd](https://www.linkedin.com/in/maksymilian-mr%C3%B3wka/) - mrowkamaksymilian@gmail.com
+Your Name - [LinkedIn](https://www.linkedin.com/in/maksymilian-mr%C3%B3wka/) - mrowkamaksymilian@gmail.com
 
 Project Link: [https://github.com/mrowkamaksymilian/raze-munner](https://github.com/mrowkamaksymilian/raze-munner)
 
