@@ -91,8 +91,8 @@ This is a recursive backtracker maze generator with solving algorithm based on m
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Install all requirements.
-2. Run the main.py file.
+1. Install all requirements
+2. Run the main.py file
 
 ### Prerequisites
 
