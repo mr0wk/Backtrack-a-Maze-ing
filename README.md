@@ -59,7 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a recursive backtracker maze generator with solving algorithm based on my own theory which is under development. Read through the theory to find out more about the algorithm:
+This is a recursive backtracker maze generator, with solving algorithm based on my own theory which is under development. Read through the theory to find out more about the algorithm:
 1. While we create the maze we want to get hold of the information about how the algorithm reached every cell, f.e. it reached the cell on coordinates (x, y) by going left.
 
 2. Using this information we want the algorithm to analyze every cell in the maze and figure out the available ways of getting out of every cell so that the algorithm knows whether there's a 'wall' in front of him or not.
