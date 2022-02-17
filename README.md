@@ -125,7 +125,7 @@ Try with manipulating values of a maze's cell in order to change the maze's size
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [LinkedIn](https://www.linkedin.com/in/maksymilian-mr%C3%B3wka/) - mrowkamaksymilian@gmail.com
+Maksymilian Mrówka - [LinkedIn](https://www.linkedin.com/in/maksymilian-mr%C3%B3wka/) - mrowkamaksymilian@gmail.com
 
 Project Link: [https://github.com/mrowkamaksymilian/raze-munner](https://github.com/mrowkamaksymilian/raze-munner)
 
